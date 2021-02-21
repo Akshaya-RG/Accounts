@@ -1,2 +1,2 @@
-db name=accounts
+db name=accounts,
 php artisan migrate
