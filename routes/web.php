@@ -14,7 +14,7 @@ use App\Http\Controllers\OrganisationNameController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('orgName');
 });
 Route::get('/organizationName/view', 'OrganisationNameController@Createdisplay');
 
